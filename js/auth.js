@@ -43,7 +43,6 @@ loginForm.addEventListener('submit', (event) => {
     }
         else {
             localStorage.setItem('user', JSON.stringify(user));
-
     login(user);
         }
 });
